@@ -20,7 +20,7 @@ public class CameraController : MonoBehaviour
 	void LateUpdate ()
 	{
 
-		transform.position = new Vector3 (Mathf.Lerp (transform.position.x, player.transform.position.x, 0.75f), Mathf.Lerp (transform.position.y, player.transform.position.y, 0.75f), -0.01f);
+		//transform.position = new Vector3 (Mathf.Lerp (transform.position.x, player.transform.position.x, 0.75f), Mathf.Lerp (transform.position.y, player.transform.position.y, 0.75f), -0.01f);
 
 		//if (player.transform.position.x > 5)
 		// Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
