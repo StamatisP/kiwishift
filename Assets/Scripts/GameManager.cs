@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour
 	public List<Tilemap> otherWorldRenderers;
 	public List<TilemapCollider2D> normalWorldColliders;
 	public List<TilemapCollider2D> otherWorldColliders;
+	//public Color fadeColor;
+	//public Color normalColor;
 
 	// Update is called once per frame
 	void Start ()
@@ -72,7 +74,7 @@ public class GameManager : MonoBehaviour
 		foreach (GameObject _go in normalWorldObjectsList)
 		{
 			Debug.Log ("loop work");
-			print (_go.name);
+			//print (_go.name);
 			normalWorldObjects.Add (_go);
 			normalWorldRenderers.Add (_go.GetComponent<Tilemap> ());
 			normalWorldColliders.Add (_go.GetComponent<TilemapCollider2D> ());
@@ -83,7 +85,7 @@ public class GameManager : MonoBehaviour
 		foreach (GameObject _go in otherWorldObjectsList)
 		{
 			Debug.Log ("loop work");
-			print (_go.name);
+			//print (_go.name);
 			otherWorldObjects.Add (_go);
 			otherWorldRenderers.Add (_go.GetComponent<Tilemap> ());
 			otherWorldColliders.Add (_go.GetComponent<TilemapCollider2D> ());
@@ -96,7 +98,11 @@ public class GameManager : MonoBehaviour
 	public void PhaseShift ()
 	{
 		isShifted = !isShifted; // if false, then in normal world. if true, then other world
-		print ("shifting phase " + isShifted);
+		if (isShifted == true)
+			print ("in normal world");
+
+		if (isShifted == false)
+			print ("other world");
 
 		// the sprite renderer should be cached...
 		// did it, cached above
@@ -109,10 +115,22 @@ public class GameManager : MonoBehaviour
 				_rend.color = new Color (1f, 1f, 1f, 0.5f);
 				// wait shit its not gonna reset oh
 			}
+
 			foreach (TilemapCollider2D _coll in otherWorldColliders)
 			{
 				_coll.enabled = false;
 			}
+
+			// reset normal world renderers
+			foreach (Tilemap _rend in normalWorldRenderers)
+			{
+				_rend.color = new Color (1f, 1f, 1f, 1f);
+			}
+			foreach (TilemapCollider2D _coll in normalWorldColliders)
+			{
+				_coll.enabled = true;
+			}
+
 		}
 		else if (isShifted == true)
 		{
@@ -120,9 +138,19 @@ public class GameManager : MonoBehaviour
 			{
 				_rend.color = new Color (1f, 1f, 1f, 0.5f);
 			}
+
 			foreach (TilemapCollider2D _coll in normalWorldColliders)
 			{
 				_coll.enabled = false;
+			}
+
+			foreach (Tilemap _rend in otherWorldRenderers)
+			{
+				_rend.color = new Color (1f, 1f, 1f, 1f);
+			}
+			foreach (TilemapCollider2D _coll in otherWorldColliders)
+			{
+				_coll.enabled = true;
 			}
 		}
 
