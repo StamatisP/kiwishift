@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerFunctions : MonoBehaviour
 {
@@ -21,6 +22,13 @@ public class PlayerFunctions : MonoBehaviour
 			//isShifted = !isShifted;
 			GameManager.Instance.PhaseShift ();
 			//print ("phasing shift " + GameManager.Instance.isShifted);
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D col) {
+		//print("TRIGGER ENTER");
+		if (col.tag == "Spikes") {
+			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 		}
 	}
 }
