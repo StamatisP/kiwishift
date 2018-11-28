@@ -498,8 +498,8 @@ MonoBehaviour:
   otherWorldObjects: []
   normalWorldRenderers: []
   otherWorldRenderers: []
-  normalWorldObjectsArray: []
-  otherWorldObjectsArray: []
+  normalWorldColliders: []
+  otherWorldColliders: []
 --- !u!4 &1757436591
 Transform:
   m_ObjectHideFlags: 0
