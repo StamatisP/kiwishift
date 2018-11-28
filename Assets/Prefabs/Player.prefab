@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4120191487191552}
   - component: {fileID: 61003670923922680}
+  - component: {fileID: 114770476724599116}
   m_Layer: 0
   m_Name: AttackTrigger
   m_TagString: Untagged
@@ -235,7 +236,7 @@ Animator:
   m_GameObject: {fileID: 1351847592410290}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6abe7be43dac44043b107db0a37d7000, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -282,6 +283,7 @@ MonoBehaviour:
   gravityModifier: 1.5
   maxSpeed: 4
   jumpTakeOffSpeed: 6
+  animator: {fileID: 95614746986369030}
 --- !u!114 &114381199201149782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -294,6 +296,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackTrigger: {fileID: 61003670923922680}
+--- !u!114 &114770476724599116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052098159689094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f4ab83e662fa44797804673e1fc4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
 --- !u!114 &114776224719266664
 MonoBehaviour:
   m_ObjectHideFlags: 1

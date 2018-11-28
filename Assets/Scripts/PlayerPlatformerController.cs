@@ -9,7 +9,7 @@ public class PlayerPlatformerController : PhysicsObject
 	public float jumpTakeOffSpeed = 7;
 
 	private SpriteRenderer spriteRenderer;
-	//private Animator animator;
+	public Animator animator;
 
 	// Use this for initialization
 	void Awake ()
@@ -42,8 +42,8 @@ public class PlayerPlatformerController : PhysicsObject
 			spriteRenderer.flipX = !spriteRenderer.flipX;
 		}
 
-		//animator.SetBool ("grounded", grounded);
-		//animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
+		animator.SetBool ("Grounded", grounded);
+		animator.SetFloat ("Speed", Mathf.Abs (velocity.x) / maxSpeed);
 
 		targetVelocity = move * maxSpeed;
 	}
