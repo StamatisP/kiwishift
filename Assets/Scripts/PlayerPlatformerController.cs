@@ -10,12 +10,14 @@ public class PlayerPlatformerController : PhysicsObject
 
 	private SpriteRenderer spriteRenderer;
 	public Animator animator;
+	public AudioSource audioSource;
 
 	// Use this for initialization
 	void Awake ()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer> ();
 		//animator = GetComponent<Animator> ();
+
 	}
 
 	protected override void ComputeVelocity ()
@@ -27,6 +29,7 @@ public class PlayerPlatformerController : PhysicsObject
 		if (Input.GetButtonDown ("Jump") && grounded)
 		{
 			velocity.y = jumpTakeOffSpeed;
+			audioSource.Play();
 		}
 		else if (Input.GetButtonUp ("Jump"))
 		{
