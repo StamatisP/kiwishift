@@ -90,6 +90,7 @@ public class GameManager : MonoBehaviour
 			otherWorldRenderers.Add (_go.GetComponent<Tilemap> ());
 			otherWorldColliders.Add (_go.GetComponent<TilemapCollider2D> ());
 		}
+		PhaseShift();
 
 		yield return null;
 	}
