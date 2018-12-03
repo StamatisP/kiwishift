@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerPlatformerController : PhysicsObject
 {
-
+	//private GameManager gameManager;
 	public float maxSpeed = 7;
 	public float jumpTakeOffSpeed = 7;
 	public Vector3 previousPosition;
@@ -18,6 +18,7 @@ public class PlayerPlatformerController : PhysicsObject
 	{
 		spriteRenderer = GetComponent<SpriteRenderer> ();
 		//animator = GetComponent<Animator> ();
+		//gameManager = GameManager.Instance;
 
 	}
 
@@ -35,7 +36,7 @@ public class PlayerPlatformerController : PhysicsObject
 		if (Input.GetButtonDown ("Jump") && grounded)
 		{
 			velocity.y = jumpTakeOffSpeed;
-			audioSource.Play();
+			SoundManager.instance.PlaySound("Jump");
 		}
 		else if (Input.GetButtonUp ("Jump"))
 		{

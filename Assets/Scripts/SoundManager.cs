@@ -28,6 +28,17 @@ public class Sound {
 }
 
 public class SoundManager : MonoBehaviour {
+	
+	public static SoundManager instance;
+
+	void Awake() {
+		if (instance != null) {
+			Debug.LogError("already sound manager there");
+		} else {
+			instance = this;
+		}
+	}
+	
 	[SerializeField]
 	Sound[] sounds;
 
@@ -35,6 +46,7 @@ public class SoundManager : MonoBehaviour {
 		for (int i = 0; i < sounds.Length; i++)
 		{
 			GameObject _go = new GameObject("Sound_" + i + "_" + sounds[i].name);
+			_go.transform.SetParent(this.transform);
 			sounds[i].SetSource (_go.AddComponent<AudioSource>());
 		}
 	}
@@ -44,7 +56,9 @@ public class SoundManager : MonoBehaviour {
 		{
 			if (sounds[i].name == _name) {
 				sounds[i].Play();
+				return;
 			}
 		}
+		Debug.LogWarning("Sound not found: " + _name);
 	}
 }
