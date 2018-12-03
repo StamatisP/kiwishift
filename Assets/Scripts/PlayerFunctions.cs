@@ -5,12 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class PlayerFunctions : MonoBehaviour
 {
-
+	private PlayerPlatformerController playerController;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
 	// Use this for initialization
 	void Start ()
 	{
+		playerController = GetComponent<PlayerPlatformerController>();
 		//isShifted = false;
 	}
 
@@ -23,12 +24,14 @@ public class PlayerFunctions : MonoBehaviour
 			GameManager.Instance.PhaseShift ();
 			//print ("phasing shift " + GameManager.Instance.isShifted);
 		}
+
 	}
 
 	void OnTriggerEnter2D(Collider2D col) {
 		//print("TRIGGER ENTER");
 		if (col.tag == "Spikes") {
-			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			transform.position = playerController.previousPosition;
 		}
 	}
 }

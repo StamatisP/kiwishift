@@ -7,6 +7,7 @@ public class PlayerPlatformerController : PhysicsObject
 
 	public float maxSpeed = 7;
 	public float jumpTakeOffSpeed = 7;
+	public Vector3 previousPosition;
 
 	private SpriteRenderer spriteRenderer;
 	public Animator animator;
@@ -19,6 +20,11 @@ public class PlayerPlatformerController : PhysicsObject
 		//animator = GetComponent<Animator> ();
 
 	}
+
+	/* void Update() {
+		if (grounded)
+			previousPosition = transform.position;
+	}*/
 
 	protected override void ComputeVelocity ()
 	{
@@ -49,5 +55,7 @@ public class PlayerPlatformerController : PhysicsObject
 		animator.SetFloat ("Speed", Mathf.Abs (velocity.x) / maxSpeed);
 
 		targetVelocity = move * maxSpeed;
+		if (grounded)
+			previousPosition = transform.position;
 	}
 }
