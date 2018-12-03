@@ -91,7 +91,8 @@ public class GameManager : MonoBehaviour
 			otherWorldColliders.Add (_go.GetComponent<TilemapCollider2D> ());
 		}
 		PhaseShift();
-
+		PhaseShift();
+		
 		yield return null;
 	}
 
@@ -100,10 +101,10 @@ public class GameManager : MonoBehaviour
 	{
 		isShifted = !isShifted; // if false, then in normal world. if true, then other world
 		if (isShifted == true)
-			print ("in normal world");
+			print ("in other world");
 
 		if (isShifted == false)
-			print ("other world");
+			print ("normal world");
 
 		// the sprite renderer should be cached...
 		// did it, cached above
