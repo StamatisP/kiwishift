@@ -42,8 +42,8 @@ public class GameManager : MonoBehaviour
 	public List<Tilemap> otherWorldRenderers;
 	public List<TilemapCollider2D> normalWorldColliders;
 	public List<TilemapCollider2D> otherWorldColliders;
-	//public Color fadeColor;
-	//public Color normalColor;
+	public Color fadeColor;
+	public Color normalColor;
 
 	// Update is called once per frame
 	void Start ()
@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour
 		{
 			foreach (Tilemap _rend in otherWorldRenderers)
 			{
-				_rend.color = new Color (1f, 1f, 1f, 0.5f);
+				_rend.color = fadeColor;
 				// wait shit its not gonna reset oh
 			}
 
@@ -126,7 +126,7 @@ public class GameManager : MonoBehaviour
 			// reset normal world renderers
 			foreach (Tilemap _rend in normalWorldRenderers)
 			{
-				_rend.color = new Color (1f, 1f, 1f, 1f);
+				_rend.color = normalColor;
 			}
 			foreach (TilemapCollider2D _coll in normalWorldColliders)
 			{
@@ -138,7 +138,7 @@ public class GameManager : MonoBehaviour
 		{
 			foreach (Tilemap _rend in normalWorldRenderers)
 			{
-				_rend.color = new Color (1f, 1f, 1f, 0.5f);
+				_rend.color = fadeColor;
 			}
 
 			foreach (TilemapCollider2D _coll in normalWorldColliders)
@@ -148,7 +148,7 @@ public class GameManager : MonoBehaviour
 
 			foreach (Tilemap _rend in otherWorldRenderers)
 			{
-				_rend.color = new Color (1f, 1f, 1f, 1f);
+				_rend.color = normalColor;
 			}
 			foreach (TilemapCollider2D _coll in otherWorldColliders)
 			{
