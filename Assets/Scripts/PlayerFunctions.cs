@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerFunctions : MonoBehaviour
 {
 	private PlayerPlatformerController playerController;
+	private Vector3 spawnPos;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
 	// Use this for initialization
@@ -13,6 +14,8 @@ public class PlayerFunctions : MonoBehaviour
 	{
 		playerController = GetComponent<PlayerPlatformerController>();
 		//isShifted = false;
+		spawnPos = transform.position;
+		
 	}
 
 	// Update is called once per frame
@@ -31,7 +34,7 @@ public class PlayerFunctions : MonoBehaviour
 		//print("TRIGGER ENTER");
 		if (col.tag == "Spikes") {
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-			transform.position = playerController.previousPosition;
+			transform.position = spawnPos;
 		}
 	}
 }
