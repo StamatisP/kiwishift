@@ -36,5 +36,8 @@ public class PlayerFunctions : MonoBehaviour
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			transform.position = spawnPos;
 		}
+		if (col.tag == "Portal") {
+			GameManager.Instance.LevelLoad();
+		}
 	}
 }

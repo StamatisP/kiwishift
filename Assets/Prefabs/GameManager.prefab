@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4111122177647012}
   - component: {fileID: 114198314890499516}
+  - component: {fileID: 114998706831630252}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -59,3 +60,21 @@ MonoBehaviour:
   otherWorldColliders: []
   fadeColor: {r: 1, g: 0.6431373, b: 0.6431373, a: 0.49803922}
   normalColor: {r: 1, g: 0.6431373, b: 0.6431373, a: 1}
+--- !u!114 &114998706831630252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190527469355896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9876a4f43c61674989d8005b2d2248c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Jump
+    clip: {fileID: 8300000, guid: 08a213d01a8d2d74080d2eb635e9fd58, type: 3}
+    volume: 0.368
+    pitch: 0.9
+    randomVolume: 0.103
+    randomPitch: 0.105
