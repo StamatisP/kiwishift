@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class EnemyBehavior : MonoBehaviour
 {
-
-	int currentHealth;
-	int maxHealth;
+	public float speed;
+	private bool movingRight = true;
+	public Transform groundDetect;
+	public int currentHealth;
+	public int maxHealth;
 
 	// Use this for initialization
 	void Start ()
@@ -20,6 +22,18 @@ public class EnemyBehavior : MonoBehaviour
 		if (currentHealth <= 0)
 		{
 			Destroy (gameObject);
+		}
+		transform.Translate(Vector2.right * speed * Time.deltaTime);
+
+		RaycastHit2D groundInfo = Physics2D.Raycast(groundDetect.position, Vector2.down, 2f);
+		if (groundInfo.collider == false) {
+			if (movingRight == true) {
+				transform.eulerAngles = new Vector3(0, -180, 0);
+				movingRight = false;
+			} else {
+				transform.eulerAngles = new Vector3(0, 0, 0);
+				movingRight = true;
+			}
 		}
 	}
 

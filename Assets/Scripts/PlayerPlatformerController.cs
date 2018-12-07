@@ -59,4 +59,8 @@ public class PlayerPlatformerController : PhysicsObject
 		if (grounded)
 			previousPosition = transform.position;
 	}
+
+	void AttackBounce(int attackBounce) {
+		velocity.y = attackBounce;
+	}
 }
