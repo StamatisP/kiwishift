@@ -63,4 +63,8 @@ public class PlayerPlatformerController : PhysicsObject
 	void AttackBounce(int attackBounce) {
 		velocity.y = attackBounce;
 	}
+
+	public bool GetGrounded() {
+		return grounded;
+	}
 }

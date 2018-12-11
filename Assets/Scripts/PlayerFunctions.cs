@@ -39,5 +39,8 @@ public class PlayerFunctions : MonoBehaviour
 		if (col.tag == "Portal") {
 			GameManager.Instance.LevelLoad();
 		}
+		if (col.tag == "EnemyDamageCollider") {
+			transform.position = spawnPos;
+		}
 	}
 }

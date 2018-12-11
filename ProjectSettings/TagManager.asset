@@ -9,6 +9,7 @@ TagManager:
   - Spikes
   - Enemy
   - Portal
+  - EnemyDamageCollider
   layers:
   - Default
   - TransparentFX
