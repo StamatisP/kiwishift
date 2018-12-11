@@ -68,10 +68,11 @@ public class GameManager : MonoBehaviour
 		yield return new WaitForFixedUpdate ();
 
 		// levelload should get called when you hit the exit portal, and when you click "start game" on main menu
-		normalWorldObjects.Clear ();
-		otherWorldObjects.Clear ();
+		//normalWorldObjects.Clear ();
+		//otherWorldObjects.Clear ();
 		normalWorldRenderers.Clear ();
 		otherWorldRenderers.Clear ();
+		yield return new WaitForFixedUpdate ();
 
 		List<GameObject> normalWorldObjectsList = GameObject.FindGameObjectsWithTag ("NormalWorld").ToList ();
 		foreach (GameObject _go in normalWorldObjectsList)

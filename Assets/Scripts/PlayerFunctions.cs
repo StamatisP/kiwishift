@@ -27,6 +27,9 @@ public class PlayerFunctions : MonoBehaviour
 			GameManager.Instance.PhaseShift ();
 			//print ("phasing shift " + GameManager.Instance.isShifted);
 		}
+		if (Input.GetKeyDown(KeyCode.Semicolon)) {
+			GameManager.Instance.LevelLoad();
+		}
 
 	}
 
