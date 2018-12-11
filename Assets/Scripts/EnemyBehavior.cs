@@ -9,6 +9,7 @@ public class EnemyBehavior : MonoBehaviour
 	public Transform groundDetect;
 	public int currentHealth;
 	public int maxHealth;
+	public Animator anim;
 
 	// Use this for initialization
 	void Start ()
