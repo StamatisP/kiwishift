@@ -4,19 +4,28 @@ using UnityEngine;
 
 public class PlayerPlatformerController : PhysicsObject
 {
-
+	//private GameManager gameManager;
 	public float maxSpeed = 7;
 	public float jumpTakeOffSpeed = 7;
+	public Vector3 previousPosition;
 
 	private SpriteRenderer spriteRenderer;
-	//private Animator animator;
+	public Animator animator;
+	public AudioSource audioSource;
 
 	// Use this for initialization
 	void Awake ()
 	{
 		spriteRenderer = GetComponent<SpriteRenderer> ();
 		//animator = GetComponent<Animator> ();
+		//gameManager = GameManager.Instance;
+
 	}
+
+	/* void Update() {
+		if (grounded)
+			previousPosition = transform.position;
+	}*/
 
 	protected override void ComputeVelocity ()
 	{
@@ -27,6 +36,7 @@ public class PlayerPlatformerController : PhysicsObject
 		if (Input.GetButtonDown ("Jump") && grounded)
 		{
 			velocity.y = jumpTakeOffSpeed;
+			SoundManager.instance.PlaySound("Jump");
 		}
 		else if (Input.GetButtonUp ("Jump"))
 		{
@@ -42,9 +52,19 @@ public class PlayerPlatformerController : PhysicsObject
 			spriteRenderer.flipX = !spriteRenderer.flipX;
 		}
 
-		//animator.SetBool ("grounded", grounded);
-		//animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
+		animator.SetBool ("Grounded", grounded);
+		animator.SetFloat ("Speed", Mathf.Abs (velocity.x) / maxSpeed);
 
 		targetVelocity = move * maxSpeed;
+		if (grounded)
+			previousPosition = transform.position;
+	}
+
+	void AttackBounce(int attackBounce) {
+		velocity.y = attackBounce;
+	}
+
+	public bool GetGrounded() {
+		return grounded;
 	}
 }

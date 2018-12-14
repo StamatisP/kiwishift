@@ -6,6 +6,10 @@ TagManager:
   tags:
   - NormalWorld
   - OtherWorld
+  - Spikes
+  - Enemy
+  - Portal
+  - EnemyDamageCollider
   layers:
   - Default
   - TransparentFX
