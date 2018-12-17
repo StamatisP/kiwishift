@@ -7,7 +7,7 @@ public class PlayerPlatformerController : PhysicsObject
 	//private GameManager gameManager;
 	public float maxSpeed = 7;
 	public float jumpTakeOffSpeed = 7;
-	public Vector3 previousPosition;
+	//public Vector3 previousPosition;
 
 	private SpriteRenderer spriteRenderer;
 	public Animator animator;
@@ -21,11 +21,6 @@ public class PlayerPlatformerController : PhysicsObject
 		//gameManager = GameManager.Instance;
 
 	}
-
-	/* void Update() {
-		if (grounded)
-			previousPosition = transform.position;
-	}*/
 
 	protected override void ComputeVelocity ()
 	{
@@ -52,12 +47,16 @@ public class PlayerPlatformerController : PhysicsObject
 			spriteRenderer.flipX = !spriteRenderer.flipX;
 		}
 
+		if (grounded && Mathf.Abs(move.x) > 0.3f) {
+			audioSource.UnPause();
+		} else {
+			audioSource.Pause();
+		}
+
 		animator.SetBool ("Grounded", grounded);
 		animator.SetFloat ("Speed", Mathf.Abs (velocity.x) / maxSpeed);
 
 		targetVelocity = move * maxSpeed;
-		if (grounded)
-			previousPosition = transform.position;
 	}
 
 	void AttackBounce(int attackBounce) {

@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class PlayerFunctions : MonoBehaviour
 {
-	private PlayerPlatformerController playerController;
+	//private PlayerPlatformerController playerController;
 	private Vector3 spawnPos;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
 	// Use this for initialization
 	void Start ()
 	{
-		playerController = GetComponent<PlayerPlatformerController>();
+		//playerController = GetComponent<PlayerPlatformerController>();
 		//isShifted = false;
 		spawnPos = transform.position;
 		

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AttackTrigger : MonoBehaviour
 {
+	// for the future: screw you idc about private variables eat my shorts
 	public PlayerPlatformerController playerController;
 	public int attackBounceJump;
 
@@ -17,7 +18,7 @@ public class AttackTrigger : MonoBehaviour
 			other.SendMessageUpwards ("Damage", damage);
 			//print("enemy new health: " + other.GetComponent<EnemyBehavior>().currentHealth);
 			gameObject.SendMessageUpwards("AttackBounce", attackBounceJump);
-		}
+		} 
 		//print(playerController.GetGrounded());
 	}
 }
