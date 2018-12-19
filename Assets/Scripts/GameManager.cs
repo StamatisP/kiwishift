@@ -72,6 +72,8 @@ public class GameManager : MonoBehaviour
 		//otherWorldObjects.Clear ();
 		normalWorldRenderers.Clear ();
 		otherWorldRenderers.Clear ();
+		normalWorldColliders.Clear();
+		otherWorldColliders.Clear();
 		yield return new WaitForFixedUpdate ();
 
 		List<GameObject> normalWorldObjectsList = GameObject.FindGameObjectsWithTag ("NormalWorld").ToList ();

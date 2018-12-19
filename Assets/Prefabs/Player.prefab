@@ -236,11 +236,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 08a213d01a8d2d74080d2eb635e9fd58, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_audioClip: {fileID: 8300000, guid: 9f5dfb642f65b294fb5305d4da953806, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.117
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -378,7 +378,6 @@ MonoBehaviour:
   gravityModifier: 1.5
   maxSpeed: 4
   jumpTakeOffSpeed: 6
-  previousPosition: {x: 0, y: 0, z: 0}
   animator: {fileID: 95614746986369030}
   audioSource: {fileID: 82406300704768990}
 --- !u!114 &114770476724599116
@@ -394,7 +393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerController: {fileID: 114261151236080820}
   attackBounceJump: 6
-  damage: 20
+  damage: 25
 --- !u!114 &114776224719266664
 MonoBehaviour:
   m_ObjectHideFlags: 1

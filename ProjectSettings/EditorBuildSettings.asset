@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1Stamos.unity
     guid: 0fffac4dcb4c6b843a65f37ddb92b616
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 6c29385b6ede1fa4ea51b793bf8724dc
+  - enabled: 0
     path: Assets/Scenes/Level2Stamos.unity
     guid: 6015c71d60991d5499b60ab51129db3a
   m_configObjects: {}
