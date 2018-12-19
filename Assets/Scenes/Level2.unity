@@ -145,7 +145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -595.1913, y: -311.162}
+  m_AnchoredPosition: {x: -981.66986, y: -584.72}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &14603412
@@ -182,7 +182,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Game Made by Kiwi Crew
 
-    (Ryan,Stamos, JJ, Josh, Diego, and Shamar'
+    (Ryan,Stamos, JJ, Josh, Diego, and Shamar)'
 --- !u!222 &14603413
 CanvasRenderer:
   m_ObjectHideFlags: 0
