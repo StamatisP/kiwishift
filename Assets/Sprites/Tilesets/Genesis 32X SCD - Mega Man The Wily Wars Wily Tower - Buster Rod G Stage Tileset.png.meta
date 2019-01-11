@@ -1,0 +1,3112 @@
+fileFormatVersion: 2
+guid: 1a99794fc0463e04fa21c0aaf2ba9a7f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_0
+    21300002: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_1
+    21300004: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_2
+    21300006: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_3
+    21300008: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_4
+    21300010: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_5
+    21300012: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_6
+    21300014: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_7
+    21300016: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_8
+    21300018: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_9
+    21300020: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_10
+    21300022: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_11
+    21300024: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_12
+    21300026: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_13
+    21300028: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_14
+    21300030: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_15
+    21300032: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_16
+    21300034: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_17
+    21300036: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_18
+    21300038: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_19
+    21300040: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_20
+    21300042: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_21
+    21300044: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_22
+    21300046: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_23
+    21300048: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_24
+    21300050: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_25
+    21300052: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_26
+    21300054: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_27
+    21300056: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_28
+    21300058: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_29
+    21300060: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_30
+    21300062: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_31
+    21300064: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_32
+    21300066: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_33
+    21300068: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_34
+    21300070: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_35
+    21300072: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_36
+    21300074: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_37
+    21300076: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_38
+    21300078: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_39
+    21300080: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_40
+    21300082: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_41
+    21300084: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_42
+    21300086: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_43
+    21300088: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_44
+    21300090: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_45
+    21300092: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_46
+    21300094: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_47
+    21300096: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_48
+    21300098: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_49
+    21300100: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_50
+    21300102: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_51
+    21300104: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_52
+    21300106: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_53
+    21300108: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_54
+    21300110: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_55
+    21300112: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_56
+    21300114: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_57
+    21300116: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_58
+    21300118: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_59
+    21300120: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_60
+    21300122: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_61
+    21300124: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_62
+    21300126: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_63
+    21300128: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_64
+    21300130: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_65
+    21300132: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_66
+    21300134: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_67
+    21300136: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_68
+    21300138: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_69
+    21300140: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_70
+    21300142: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_71
+    21300144: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_72
+    21300146: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_73
+    21300148: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_74
+    21300150: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_75
+    21300152: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_76
+    21300154: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_77
+    21300156: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_78
+    21300158: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_79
+    21300160: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_80
+    21300162: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_81
+    21300164: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_82
+    21300166: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_83
+    21300168: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_84
+    21300170: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_85
+    21300172: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_86
+    21300174: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_87
+    21300176: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_88
+    21300178: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_89
+    21300180: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_90
+    21300182: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_91
+    21300184: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_92
+    21300186: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_93
+    21300188: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_94
+    21300190: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_95
+    21300192: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_96
+    21300194: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_97
+    21300196: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_98
+    21300198: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_99
+    21300200: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_100
+    21300202: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_101
+    21300204: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_102
+    21300206: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_103
+    21300208: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_104
+    21300210: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_105
+    21300212: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_106
+    21300214: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_107
+    21300216: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_108
+    21300218: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_109
+    21300220: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_110
+    21300222: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_111
+    21300224: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_112
+    21300226: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_113
+    21300228: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_114
+    21300230: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_115
+    21300232: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_116
+    21300234: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_117
+    21300236: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_118
+    21300238: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_119
+    21300240: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_120
+    21300242: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_121
+    21300244: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_122
+    21300246: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_123
+    21300248: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_124
+    21300250: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_125
+    21300252: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_126
+    21300254: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_127
+    21300256: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_128
+    21300258: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_129
+    21300260: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+      Tileset_130
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6c0728ad31a6842b9fbdea233260e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90492e6d28c439e40833ffd3414a7949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6a189c83d4adc42bf509ac8ab885ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12541673fe104f1448bf99f2ddf615ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b5d8a6007a9e34c9ae144730f1722f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a90fbf09a0a79548964da636dd47c01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce6dcb75b22b034cb33d92d9e5e530b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf9fe892ae9a4d44ba1da46b66dc55a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97399d7732d94a74292c314c63c5ff25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95aa2c2e615ada49a762ccd5511915b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d0f5567ac56724b8b3157369dc3c22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d827d8ad89dedb74497d8b8d35998601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63947edb984f8d84c8c8807cf40d7284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f131b20c6687a498020bed32a4ba65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3a05a5469bbd748a54c427ae48ec8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d268ff35555384ea4941deccf89280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860343e4bf34a3742a4f00f8563ec741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce156cc269740cd4290897f480def67d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1960fbe6ee8db5f4ab184ab5fb3305ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce0b7977c123bf488cadad4b9eb0b6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0518cd90839c1d446a1d62908d8ce5b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6301ce60f2c7d4abb82b1660b13c78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad87c70be87d0e4a86fa21d02526a85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f119f1416b1bdeb47b9967c2bfc167c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f6a7be883d7d640a78f9cb3c1c29ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722e62c40c8226942b3f5fcdc9996711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad414f641814966429f4e3bd3c33c427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c57cf6b1ce0db94cae8e6f9859e6c24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1601fdfc67bf6db49920ebe96721f7d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c43989c0b754eb4396b574d5c050669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f6d4ed03952454ea2d53d67c91b9d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034cfc01f998fc940bc15fa557da90e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b46f26c85b4627499174f303f4c7ce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f572d2b632e3d64eb06bbb534c1ee32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e7149e0c45b314fb5b20a54dcd2cc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a18e59dd5d6d64096ab9172fe12875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda2d5236ec33db48be01459d20c0f2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eb6515b99d76f4fa8cf300635fb7da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec400901cb3d5d241a51c4b36a5b366b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374a228d2c0636d47b22a2e47a161944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f39a83fc65c6a647b384c679a6f05c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7913a3c8fca22ff4f9bab537570660d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8912379127565234a932e2a853d001b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faca9f8a8d6a131469bb300f10c484bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ec388758302c4490a13a609778c38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd44a2958a576a4aa4886ba6f64809b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b835b2d5dcc8b54d86cecce9d333026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821526c474ddc924ba82540eac5e23bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345916d9d6a072a4a917fc54a799bbe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265c0cccb86d97840aa97871bdb559ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795c1a10d1ce4bb429fa6fe7a70e8ac1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d971f6bf458c2af43974286d407fef11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a8a3442316ec469118e16c2d1b549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e55b172dd30e64d9c51c68173812f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eccfc70a94e96f4bbeaa42c09cd2da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a792c2217be0b424daad263ecb7d00e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c4dada65277fb48acdcc02de9655dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cadeae1b9cb1842b72a126ef25e633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78859526d93e0474781c6d16f2fdb79c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8146137fdb0415c478bf7d46e683d78a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abda018f31e38e0408df4b1ce7762183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a36bd595c6fa6e4b9d0db7ba41fcfb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e34698a816c024f8e4d46e7adf4656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab213534c21209d479fa499e7a053d24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b7029e093a6c429d09b2b6c533533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382e0f9998f44984782a415cf60bf3f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_66
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545f809d55cb7f241b2cd9ca4481c9c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb775348ab3dcd46893eb1126738dc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff69c683b66b2e14b9c6f8bd006052be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a28420c6d5c9f5479f1c58618903ece
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db3df2497c155546a80dc9cc33695be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d863d6c5064a5ec499dd8ab5a9e528af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf5e977a2b532a4594a70291a4052af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1092d5348d0f72479d595dc5e9fe352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebe7d9f68bc8cd4d955c0014a21d499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e98a724bdd9cc94082188fc86a25840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4bce351443d7245aa5130ff2cfc87c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e584820c3f3ddd42aac8b42e3fa358a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fd58940e8e7304f9145eb40f28e690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88c5e9b238d53a47aeb1f642db0dbd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f271279b6b10e41a140722fe6bdd40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7229de824648f6499a13159b8b35c96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc640f201362014da7f96761c09367b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e60e411ba3fe649a488a6defc3164d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888a4c4441b6a734893515b8a0d53603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf32f0622878dc418ab0b44c4200bf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b850de1651db4469a961628cf43f18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406eb5071c4bfd142b829a938e418ac7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33192ca150a9d6645b7de7784fd49e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aff59af8857b743a4537750cc0b1a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76207420cc92014f84d2d364621311e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec8b48b23ab02242b7bffc4151a7793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_92
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791ee2a8dc365af4eaa324c5753b2a59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af72d7a82bb2e344d9c4f3feb1500682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_94
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6a7d8d94c4005458d6928c1251937a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_95
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b594c5e0215c3418bb42dd77f7456d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_96
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f506e0ce1b4e4147a44282c35706d3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499366a9cb36a62429f6e3c3142bdbd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_98
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2a902b0fdb8bf409346864f74e7b65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a0be199690cc4d981866d34d7b573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_100
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10debbbfdb321904bb9fd7ab970a4816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6010026fef15bf34fbc448e82eb61246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_102
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cb2c933de02264395cf0ed1e863cc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_103
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80cd79fad7ae944809993b3990ccd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_104
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1c8607b95d344bbbf05c96668c658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2745e5c9f8b7b438309e28f786c9a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb22a9e8d0140f4484d987c5869a13f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c03b2cf77e80084587e695161f2a2d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_108
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fa519386ce4fc49b497da1c5c72ebd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422682a87c6fd204d9be82ca7462f8f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3117e27f7063a7a43803f889d750e325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff382bdbcc248447b64fe910f2a90d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_112
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d0913c2b5647478fd0b60c72b58f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2a997d9aaa5724ea7e3ef350721089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_114
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9e0e9a451c3a3419dd9b874563da20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295450365558b96409856a07112fd4d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_116
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b84fa16ac801640ba68f06d421768a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_117
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91680d3e9ffaf143ba445f469c99835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_118
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd248a40dca65e4b8b53d72bfc88375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54698d9c7b80736459e7c8b46bcb9c62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_120
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58bd40ec01b34347ad20fd24d7ff675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_121
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67799f4bab77f2f4d861d2fe78483f3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_122
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd873b0d129f99449be4a1b9aa5bb36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744eecfd5fdb5e3468294de082be36b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_124
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57f84feedc1edb41b9f90116a503a2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82566b5280b7004a84e1b456ebed14d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f879b83cff584c479a5b249289af7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c83682351f4c794eb1f70129b5da3b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_128
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9734123610d904986e89e99706b75e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_129
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a4fb808ee937548a758f86d8d9573c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Genesis 32X SCD - Mega Man The Wily Wars Wily Tower - Buster Rod G Stage
+        Tileset_130
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c47bfc7643ce2e47abfed6d338bd476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d80f9ae8b9c8d5c4e9fc8c7cca8c8814
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
