@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Direction {LEFT, RIGHT};
 public class PlayerPlatformerController : PhysicsObject
 {
 	//private GameManager gameManager;
@@ -12,6 +13,13 @@ public class PlayerPlatformerController : PhysicsObject
 	private SpriteRenderer spriteRenderer;
 	public Animator animator;
 	public AudioSource audioSource;
+	private Direction playerDirection = Direction.RIGHT;
+
+	public Direction PlayerDirection {
+		get {
+			return playerDirection;
+		}
+	}
 
 	// Use this for initialization
 	void Awake ()
@@ -45,6 +53,11 @@ public class PlayerPlatformerController : PhysicsObject
 		if (flipSprite)
 		{
 			spriteRenderer.flipX = !spriteRenderer.flipX;
+			if (playerDirection == Direction.LEFT) {
+				playerDirection = Direction.RIGHT;
+			} else if (playerDirection == Direction.RIGHT) {
+				playerDirection = Direction.LEFT;
+			}
 		}
 
 		if (grounded && Mathf.Abs(move.x) > 0.3f) {
