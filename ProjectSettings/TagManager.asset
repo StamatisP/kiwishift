@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Portal
   - EnemyDamageCollider
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -19,9 +20,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Player
+  - Bullet
+  - Enemy
   - 
   - 
   - 

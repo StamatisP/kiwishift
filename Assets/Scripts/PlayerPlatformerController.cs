@@ -39,7 +39,10 @@ public class PlayerPlatformerController : PhysicsObject
 		if (Input.GetButtonDown ("Jump") && grounded)
 		{
 			velocity.y = jumpTakeOffSpeed;
-			SoundManager.instance.PlaySound("Jump");
+			if (!SoundManager.instance) {
+				Debug.LogError("Sound manager is nonexistant!!!");
+			} else if (SoundManager.instance)
+				SoundManager.instance.PlaySound("Jump");
 		}
 		else if (Input.GetButtonUp ("Jump"))
 		{
