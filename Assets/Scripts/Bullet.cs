@@ -6,6 +6,10 @@ public class Bullet : MonoBehaviour {
 
 	public Direction bulletDirection = Direction.RIGHT;
 	public float speed = 5.0f;
+	public int damage = 5;
+	float distanceFromParent;
+	[SerializeField]
+	private GameObject parent;
 
 	private Transform _transform;
 	// Use this for initialization
@@ -16,6 +20,10 @@ public class Bullet : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		MoveBullet();
+		distanceFromParent = Vector3.Distance(parent.transform.position, transform.position);
+		if (distanceFromParent > 12f) {
+			Destroy(gameObject);
+		}
 	}
 
 	void MoveBullet() {
@@ -23,5 +31,12 @@ public class Bullet : MonoBehaviour {
 
 		float translate = moveDirection * speed * Time.deltaTime;
 		_transform.Translate(translate, 0, 0);
+	}
+
+	void OnTriggerEnter2D(Collider2D col) {
+		if(col.tag == "Enemy") {
+			col.gameObject.GetComponent<Enemy>().Damage(damage);
+			Destroy(gameObject);
+		}
 	}
 }
