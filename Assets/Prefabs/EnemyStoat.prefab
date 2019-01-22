@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 61185650134158162}
   - component: {fileID: 95954767500810272}
   - component: {fileID: 114579446329940372}
+  - component: {fileID: 114775907376680182}
   m_Layer: 10
   m_Name: EnemyStoat
   m_TagString: Enemy
@@ -37,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1357770572197090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.24, y: -1.4243966, z: 0}
+  m_LocalPosition: {x: 17.297, y: 5.395, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -98,6 +99,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+--- !u!114 &114775907376680182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1357770572197090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db7607719f7900246bb503dca8d03c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  moveSpots:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!212 &212165477295026984
 SpriteRenderer:
   m_ObjectHideFlags: 1
