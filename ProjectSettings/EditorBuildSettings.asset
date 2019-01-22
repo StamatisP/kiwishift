@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a7573a4ce23569a4192e060a313a59ff
+  - enabled: 1
     path: Assets/Scenes/Repurpose Project/Level1Stamos.unity
     guid: 78bae7a93a173a24b91dae375288f4d3
   - enabled: 1
