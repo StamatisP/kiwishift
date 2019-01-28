@@ -11,6 +11,8 @@ TagManager:
   - Portal
   - EnemyDamageCollider
   - Bullet
+  - FlyingEnemy
+  - FlyingEnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - Player
   - Bullet
   - Enemy
-  - 
+  - EnemyBullet
   - 
   - 
   - 

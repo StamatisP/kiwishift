@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class PlayerFunctions : MonoBehaviour
 {
+	public int health = 35;
 	//private PlayerPlatformerController playerController;
 	private Vector3 spawnPos;
 	//bool isShifted; // if false, then in normal world. if true, then other world
@@ -16,7 +16,7 @@ public class PlayerFunctions : MonoBehaviour
 		//playerController = GetComponent<PlayerPlatformerController>();
 		//isShifted = false;
 		spawnPos = transform.position;
-		
+		Application.targetFrameRate = 60;
 	}
 
 	// Update is called once per frame
@@ -28,23 +28,39 @@ public class PlayerFunctions : MonoBehaviour
 			GameManager.Instance.PhaseShift ();
 			//print ("phasing shift " + GameManager.Instance.isShifted);
 		}
-		if (Input.GetKeyDown(KeyCode.Semicolon)) {
-			GameManager.Instance.LevelLoad();
+		if (Input.GetKeyDown (KeyCode.Semicolon))
+		{
+			GameManager.Instance.LevelLoad ();
 		}
 
 	}
 
-	void OnTriggerEnter2D(Collider2D col) {
+	void OnTriggerEnter2D (Collider2D col)
+	{
 		//print("TRIGGER ENTER");
-		if (col.tag == "Spikes") {
+		if (col.tag == "Spikes")
+		{
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			transform.position = spawnPos;
 		}
-		if (col.tag == "Portal") {
-			GameManager.Instance.LevelLoad();
+		if (col.tag == "Portal")
+		{
+			GameManager.Instance.LevelLoad ();
 		}
-		if (col.tag == "EnemyDamageCollider") {
+		if (col.tag == "EnemyDamageCollider")
+		{
 			transform.position = spawnPos;
+		}
+
+	}
+
+	public void Damage (int dmg)
+	{
+		health -= dmg;
+		print ("kiwi damaged");
+		if (health <= 0)
+		{
+			Destroy (gameObject);
 		}
 	}
 }
