@@ -114,9 +114,15 @@ public class FlyingEnemyBehavior : MonoBehaviour
 
 		// Checks if it should move left or right towards player
 		if (transform.position.x - player.transform.position.x > 0)
+		{
 			move = -1;
+			transform.eulerAngles = new Vector3 (0, -180, 0);
+		}
 		else
+		{
 			move = 1;
+			transform.eulerAngles = new Vector3 (0, 0, 0);
+		}
 
 		// Checks if enemy is too high for player to hit - moves up and down
 		yDifference = transform.position.y - player.transform.position.y;
