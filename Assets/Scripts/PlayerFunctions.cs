@@ -16,7 +16,7 @@ public class PlayerFunctions : MonoBehaviour
 		//playerController = GetComponent<PlayerPlatformerController>();
 		//isShifted = false;
 		spawnPos = transform.position;
-
+		Application.targetFrameRate = 60;
 	}
 
 	// Update is called once per frame
