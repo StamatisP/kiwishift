@@ -7,6 +7,7 @@ public class PlayerFunctions : MonoBehaviour
 {
 	public int health = 35;
 	//private PlayerPlatformerController playerController;
+	private Rigidbody2D rb2d;
 	private Vector3 spawnPos;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
@@ -17,6 +18,8 @@ public class PlayerFunctions : MonoBehaviour
 		//isShifted = false;
 		spawnPos = transform.position;
 		Application.targetFrameRate = 60;
+		//playerController = GetComponent<PlayerPlatformerController> ();
+		rb2d = GetComponent<Rigidbody2D> ();
 	}
 
 	// Update is called once per frame
@@ -43,13 +46,18 @@ public class PlayerFunctions : MonoBehaviour
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			transform.position = spawnPos;
 		}
-		if (col.tag == "Portal")
+		if (col.tag == "Portal" && col.tag != "Bullet")
 		{
 			GameManager.Instance.LevelLoad ();
 		}
-		if (col.tag == "EnemyDamageCollider")
+		if (col.tag == "Enemy" || col.tag == "FlyingEnemy")
 		{
-			transform.position = spawnPos;
+			print ("entering fuck");
+			var opposite = -rb2d.velocity;
+			print (opposite);
+			rb2d.AddForce (opposite * Time.deltaTime);
+			Damage (5);
+			//transform.position = spawnPos;
 		}
 
 	}
@@ -60,7 +68,8 @@ public class PlayerFunctions : MonoBehaviour
 		print ("kiwi damaged");
 		if (health <= 0)
 		{
-			Destroy (gameObject);
+			transform.position = spawnPos;
+			health = 35;
 		}
 	}
 }

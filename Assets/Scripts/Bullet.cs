@@ -17,17 +17,18 @@ public class Bullet : MonoBehaviour
 	void Start ()
 	{
 		_transform = transform;
+		Destroy (gameObject, 4f);
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
 		MoveBullet ();
-		distanceFromParent = Vector3.Distance (transform.parent.transform.position, transform.position);
-		if (distanceFromParent > 12f)
+		//distanceFromParent = Vector3.Distance (transform.parent.transform.position, transform.position);
+		/*if (distanceFromParent > 12f)
 		{
 			Destroy (gameObject);
-		}
+		}*/
 	}
 
 	void MoveBullet ()

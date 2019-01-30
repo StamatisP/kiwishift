@@ -13,12 +13,12 @@ public class EnemyBullet : MonoBehaviour
 	private GameObject parent;
 	private Rigidbody2D rb2d;
 
-	private Transform _transform;
+	//private Transform _transform;
 	// Use this for initialization
 	void Start ()
 	{
 		print ("bullet spawn enemy");
-		_transform = transform;
+		//_transform = transform;
 		Destroy (gameObject, 2f);
 		rb2d = GetComponent<Rigidbody2D> ();
 	}

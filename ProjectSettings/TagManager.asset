@@ -26,7 +26,7 @@ TagManager:
   - Bullet
   - Enemy
   - EnemyBullet
-  - 
+  - Portal
   - 
   - 
   - 
@@ -49,4 +49,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enemy
+    uniqueID: 1953695911
+    locked: 0
+  - name: Bullet
+    uniqueID: 711393483
+    locked: 0
+  - name: Fuck wait
+    uniqueID: 1991988511
     locked: 0

@@ -19,7 +19,7 @@ public class FlyingEnemyBehavior : MonoBehaviour
 
 	private float attackTime = 0f; //	current attack time
 	private GameObject player; // handle on players MegaMan
-	private Animator anim;
+	//private Animator anim;
 	private bool enemyActive;
 	private bool firstDash = false; // first dash handle for the inital jump towards player
 	//private float explosionTime = 0f;
@@ -36,7 +36,7 @@ public class FlyingEnemyBehavior : MonoBehaviour
 		player = GameObject.FindGameObjectWithTag ("Player");
 
 		// Getting a handle on animators
-		anim = GetComponent<Animator> ();
+		//anim = GetComponent<Animator> ();
 		attackTime = Time.time + Random.Range (attackMinTime, attackMaxTime);
 	}
 
