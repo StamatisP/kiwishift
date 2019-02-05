@@ -36,6 +36,11 @@ public class PlayerFunctions : MonoBehaviour
 			GameManager.Instance.LevelLoad ();
 		}
 
+		if (Input.GetKeyDown (KeyCode.Escape))
+		{
+			Application.Quit ();
+		}
+
 	}
 
 	void OnTriggerEnter2D (Collider2D col)
