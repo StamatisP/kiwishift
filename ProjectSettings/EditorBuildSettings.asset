@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Repurpose Project/Level2JJ.unity
     guid: 3b620535652d4ee45967fb7af41f48f7
+  - enabled: 1
+    path: Assets/Scenes/Repurpose Project/The End.unity
+    guid: 803f47936cd205b4e842b0c694349f06
   m_configObjects: {}
