@@ -357,11 +357,11 @@ RectTransform:
   m_Father: {fileID: 2104321399}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -956, y: 284}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 173.27}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &2039945072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -381,8 +381,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: "THANK YOU FOR PLAYING OUR BOOSTED GAME \n\n\tTHE END \n\n\tBy the Kiwi
-    Crew:  \n\tStamos, Ryan, JJ, Diego, \n\tJosh, and Shamar"
+  m_text: "THANK YOU FOR PLAYING OUR BOOSTED GAME \n\nTHE END \nBy the Kiwi Crew:
+    \ \n\nStamos, Ryan, JJ, Diego, \nJosh, and Shamar"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -409,8 +409,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 46
-  m_fontSizeBase: 46
+  m_fontSize: 62.72
+  m_fontSizeBase: 62.72
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -427,7 +427,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 51
+  m_firstOverflowCharacterIndex: 41
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -450,9 +450,9 @@ MonoBehaviour:
   m_margin: {x: 181.83429, y: 0, z: -1725.7638, w: -120.41275}
   m_textInfo:
     textComponent: {fileID: 0}
-    characterCount: 117
+    characterCount: 113
     spriteCount: 0
-    spaceCount: 30
+    spaceCount: 26
     wordCount: 20
     linkCount: 0
     lineCount: 7
