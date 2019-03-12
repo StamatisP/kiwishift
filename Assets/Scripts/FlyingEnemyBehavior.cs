@@ -151,8 +151,8 @@ public class FlyingEnemyBehavior : MonoBehaviour
 		{
 			attackTime = Time.time + Random.Range (attackMinTime, attackMaxTime);
 			//anim.SetTrigger ("Attack");
-			Vector3 beamRotation = new Vector3 (transform.rotation.x, transform.rotation.y, 90);
-			var eBullet = Instantiate (beam, new Vector3 (transform.position.x, transform.position.y - 0.04f, 0f), Quaternion.Euler (beamRotation)) as GameObject;
+			//Vector3 beamRotation = new Vector3 (transform.rotation.x, transform.rotation.y, 90);
+			var eBullet = Instantiate (beam, new Vector3 (transform.position.x, transform.position.y - 0.04f, 0f), Quaternion.identity) as GameObject;
 			print (eBullet);
 			eBullet.GetComponent<EnemyBullet> ().bulletDirection = direction;
 			print ("attack");
