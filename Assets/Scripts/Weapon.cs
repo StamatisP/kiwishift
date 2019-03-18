@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
 	[SerializeField]
 	private GameObject firePositionLeft;
 	private GameObject firePosition;
+	private float timeStamp;
 
 	private PlayerPlatformerController playerPlatformerController;
 	// Use this for initialization
@@ -36,8 +37,9 @@ public class Weapon : MonoBehaviour
 			Debug.LogError ("tf????");
 		}
 
-		if (Input.GetButtonDown ("Fire1"))
+		if (Input.GetButtonDown ("Fire1") && timeStamp <= Time.time)
 		{
+			timeStamp = Time.time + (float) 0.5;
 			var tBullet = Instantiate (bullet, firePosition.transform.position, bullet.transform.rotation) as GameObject;
 			tBullet.GetComponent<Bullet> ().bulletDirection = playerPlatformerController.PlayerDirection;
 		}

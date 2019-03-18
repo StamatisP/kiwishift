@@ -9,6 +9,8 @@ public class PlayerFunctions : MonoBehaviour
 	//private PlayerPlatformerController playerController;
 	private Rigidbody2D rb2d;
 	private Vector3 spawnPos;
+	[SerializeField]
+	//private SpriteRenderer material;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
 	// Use this for initialization
@@ -20,6 +22,7 @@ public class PlayerFunctions : MonoBehaviour
 		Application.targetFrameRate = 60;
 		//playerController = GetComponent<PlayerPlatformerController> ();
 		rb2d = GetComponent<Rigidbody2D> ();
+		//material = GetComponent<SpriteRenderer> ();
 	}
 
 	// Update is called once per frame
@@ -36,6 +39,8 @@ public class PlayerFunctions : MonoBehaviour
 			GameManager.Instance.LevelLoad ();
 		}
 
+		//material.color = new Color (255, 255, 255, health * (float) 7.28);
+		//print (material.color);
 	}
 
 	void OnTriggerEnter2D (Collider2D col)

@@ -12,7 +12,7 @@ public class FlyingEnemyBehavior : MonoBehaviour
 
 	public float alertDistance = 5f;
 	public float health = 5f;
-	public float attackMinTime = 1f; // Attack Time Minimums and Maximums
+	public float attackMinTime = 3f; // Attack Time Minimums and Maximums
 	public float attackMaxTime = 4f;
 	public GameObject beam; // refrences it's beam object
 	private Direction direction;
