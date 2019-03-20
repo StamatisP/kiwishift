@@ -31270,7 +31270,7 @@ Prefab:
     - target: {fileID: 8195094280357068600, guid: 85c5784d17ca72b4dbf196fae2a4b2e6,
         type: 2}
       propertyPath: m_Tiles.Array.data[881].first.x
-      value: 58
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 8195094280357068600, guid: 85c5784d17ca72b4dbf196fae2a4b2e6,
         type: 2}
@@ -31280,12 +31280,12 @@ Prefab:
     - target: {fileID: 8195094280357068600, guid: 85c5784d17ca72b4dbf196fae2a4b2e6,
         type: 2}
       propertyPath: m_Tiles.Array.data[881].second.m_TileIndex
-      value: 4
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8195094280357068600, guid: 85c5784d17ca72b4dbf196fae2a4b2e6,
         type: 2}
       propertyPath: m_Tiles.Array.data[881].second.m_TileSpriteIndex
-      value: 4
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 8195094280357068600, guid: 85c5784d17ca72b4dbf196fae2a4b2e6,
         type: 2}
