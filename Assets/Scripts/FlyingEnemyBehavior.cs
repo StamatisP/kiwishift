@@ -27,7 +27,7 @@ public class FlyingEnemyBehavior : MonoBehaviour
 	private float yDifference = 0f;
 
 	public float speed = 1.25f; // horizontal speed
-	public float vSpeed = 0.5f; // vertical speed
+	public float vSpeed = 1.5f; // vertical speed
 	public int move = 0; // horizontal direction
 	// Use this for initialization
 	void Start ()
@@ -114,13 +114,17 @@ public class FlyingEnemyBehavior : MonoBehaviour
 	{
 
 		// Checks if it should move left or right towards player
-		if (transform.position.x - player.transform.position.x > 0.01f)
+		if (transform.position.x - player.transform.position.x > 0.1f)
 		{
 			move = -1;
 			transform.eulerAngles = new Vector3 (0, -180, 0);
 			direction = Direction.LEFT;
 		}
-		else
+		else if (transform.position.x - player.transform.position.x == 0)
+		{
+			speed = 0;
+		}
+		else if (transform.position.x - player.transform.position.x < -0.1f)
 		{
 			move = 1;
 			transform.eulerAngles = new Vector3 (0, 0, 0);
@@ -131,11 +135,11 @@ public class FlyingEnemyBehavior : MonoBehaviour
 		yDifference = transform.position.y - player.transform.position.y;
 		if (yDifference > 1.0f)
 		{
-			vSpeed = -0.1f;
+			vSpeed = -0.5f;
 		}
 		else if (yDifference < 0.5f)
 		{
-			vSpeed = 0.2f;
+			vSpeed = 0.5f;
 		}
 		else
 		{
