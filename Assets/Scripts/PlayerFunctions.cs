@@ -50,6 +50,7 @@ public class PlayerFunctions : MonoBehaviour
 		{
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 			transform.position = spawnPos;
+			health = 35;
 		}
 		if (col.tag == "Portal" && col.tag != "Bullet")
 		{
