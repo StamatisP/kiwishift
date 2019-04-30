@@ -58,8 +58,10 @@ MonoBehaviour:
   otherWorldRenderers: []
   normalWorldColliders: []
   otherWorldColliders: []
-  fadeColor: {r: 1, g: 0.6431373, b: 0.6431373, a: 0.49803922}
-  normalColor: {r: 1, g: 0.6431373, b: 0.6431373, a: 1}
+  otherWorldColor: {r: 0.9433962, g: 0.28924885, b: 0.28924885, a: 1}
+  normalWorldColor: {r: 0.36020774, g: 0.9716981, b: 0.35292807, a: 1}
+  otherWorldColorFade: {r: 0.94509804, g: 0.2901961, b: 0.2901961, a: 0.42745098}
+  normalWorldColorFade: {r: 0.36078432, g: 0.972549, b: 0.3529412, a: 0.43529412}
 --- !u!114 &114998706831630252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -77,4 +79,16 @@ MonoBehaviour:
     volume: 0.368
     pitch: 0.9
     randomVolume: 0.103
+    randomPitch: 0.105
+  - name: Death
+    clip: {fileID: 8300000, guid: 900c856c6ac92264e903499e106bed9e, type: 3}
+    volume: 0.368
+    pitch: 1
+    randomVolume: 0
+    randomPitch: 0
+  - name: PhaseShift
+    clip: {fileID: 8300000, guid: 19de3450b2f490c438106f7df8da2ec2, type: 3}
+    volume: 0.896
+    pitch: 1
+    randomVolume: 0
     randomPitch: 0.105

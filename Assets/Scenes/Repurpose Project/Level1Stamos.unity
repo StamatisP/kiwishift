@@ -542,6 +542,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114725887961545114, guid: 9cb39bd116184eb4985eb846c081f1eb,
+        type: 2}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 11400000, guid: bdcae0c440ba67f448d5b9f0d1219dae,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb39bd116184eb4985eb846c081f1eb, type: 2}
   m_IsPrefabAsset: 0
