@@ -75,10 +75,9 @@ GameObject:
   - component: {fileID: 20508435857147504}
   - component: {fileID: 81531437450618128}
   - component: {fileID: 114052795572490632}
-  - component: {fileID: 114776224719266664}
   - component: {fileID: 114581011597193170}
   - component: {fileID: 114725887961545114}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -177,7 +176,7 @@ Camera:
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 1
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!50 &50922862560336182
@@ -412,7 +411,7 @@ MonoBehaviour:
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
-    fastMode: 0
+    fastMode: 1
     keepAlpha: 0
   fog:
     enabled: 1
@@ -456,30 +455,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: bdcae0c440ba67f448d5b9f0d1219dae, type: 2}
+  sharedProfile: {fileID: 11400000, guid: 32f8fcff7bd2e2e428ee8ef88941b007, type: 2}
   isGlobal: 1
   blendDistance: 0
   weight: 1
   priority: 0
---- !u!114 &114776224719266664
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1519181118716018}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AssetsPPU: 100
-  m_RefResolutionX: 1920
-  m_RefResolutionY: 1080
-  m_UpscaleRT: 0
-  m_PixelSnapping: 1
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!114 &114942928358020080
 MonoBehaviour:
   m_ObjectHideFlags: 1
