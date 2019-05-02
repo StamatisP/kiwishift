@@ -12,6 +12,10 @@ public class PlayerFunctions : MonoBehaviour
 	private Vector3 spawnPos;
 	private Animator animator;
 	[SerializeField]
+	private PostProcessProfile DeathProfile;
+	[SerializeField]
+	private PostProcessProfile NormalProfile;
+	private bool isDead;
 	//private SpriteRenderer material;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
@@ -25,6 +29,7 @@ public class PlayerFunctions : MonoBehaviour
 		animator = GetComponent<Animator>();
 		//playerController = GetComponent<PlayerPlatformerController> ();
 		rb2d = GetComponent<Rigidbody2D>();
+		isDead = false;
 		//material = GetComponent<SpriteRenderer> ();
 	}
 
@@ -33,6 +38,11 @@ public class PlayerFunctions : MonoBehaviour
 	{
 		if (Input.GetButtonDown("PhaseShift"))
 		{
+			if (isDead)
+			{
+				Spawn();
+				return;
+			}
 			//isShifted = !isShifted;
 			GameManager.Instance.PhaseShift();
 			SoundManager.instance.PlaySound("PhaseShift");
@@ -57,8 +67,9 @@ public class PlayerFunctions : MonoBehaviour
 		if (col.tag == "Spikes")
 		{
 			//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-			transform.position = spawnPos;
-			health = 35;
+			//transform.position = spawnPos;
+			//health = 35;
+			PlayerDeath();
 		}
 		if (col.tag == "Portal" && col.tag != "Bullet")
 		{
@@ -78,6 +89,10 @@ public class PlayerFunctions : MonoBehaviour
 
 	public void Damage(int dmg)
 	{
+		if (isDead)
+		{
+			return;
+		}
 		health -= dmg;
 		print("kiwi damaged");
 		if (health <= 0)
@@ -91,14 +106,22 @@ public class PlayerFunctions : MonoBehaviour
 	public void PlayerDeath()
 	{
 		// vignette effect, tone down colors, play sound, and at the end
-		animator.SetTrigger("IsDead");
+		animator.SetTrigger("Died");
+		isDead = true;
+		animator.SetBool("IsDead", true);
 		SoundManager.instance.PlaySound("Death");
+		Camera.main.GetComponent<PostProcessVolume>().profile = DeathProfile;
+		gameObject.GetComponent<PlayerPlatformerController>().enabled = false;
 	}
 
 	public void Spawn()
 	{
 		transform.position = spawnPos;
 		health = 35;
-		animator.ResetTrigger("IsDead");
+		animator.ResetTrigger("Died");
+		isDead = false;
+		animator.SetBool("IsDead", false);
+		Camera.main.GetComponent<PostProcessVolume>().profile = NormalProfile;
+		gameObject.GetComponent<PlayerPlatformerController>().enabled = true;
 	}
 }

@@ -240,7 +240,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9f5dfb642f65b294fb5305d4da953806, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b40828e8c60400d44b4b7c9ca6da652e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.05
   m_Pitch: 1
@@ -356,6 +356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 35
+  DeathProfile: {fileID: 11400000, guid: bdcae0c440ba67f448d5b9f0d1219dae, type: 2}
+  NormalProfile: {fileID: 11400000, guid: 32f8fcff7bd2e2e428ee8ef88941b007, type: 2}
 --- !u!114 &114052795572490632
 MonoBehaviour:
   m_ObjectHideFlags: 1

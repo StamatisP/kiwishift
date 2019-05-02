@@ -24,6 +24,15 @@ TextureImporter:
     21300038: Kiwi Death_19
     21300040: Kiwi Death_20
     21300042: Kiwi Death_21
+    21300044: Kiwi Death_22
+    21300046: Kiwi Death_23
+    21300048: Kiwi Death_24
+    21300050: Kiwi Death_25
+    21300052: Kiwi Death_26
+    21300054: Kiwi Death_27
+    21300056: Kiwi Death_28
+    21300058: Kiwi Death_29
+    21300060: Kiwi Death_30
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -67,7 +76,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,9 +119,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 512
-        width: 128
-        height: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,7 +129,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6558330404fdb745b8bbf1712140dda
+      spriteID: 75cb3a4e724215841b7c7e1cc8438ad7
       vertices: []
       indices: 
       edges: []
@@ -129,10 +138,10 @@ TextureImporter:
       name: Kiwi Death_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
-        width: 128
-        height: 128
+        x: 64
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,7 +149,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36921001c74c26148a0d6bc95656e0b0
+      spriteID: 4b657aaaaaf67cc4695a2c567ed773d4
       vertices: []
       indices: 
       edges: []
@@ -149,10 +158,10 @@ TextureImporter:
       name: Kiwi Death_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 128
-        height: 128
+        x: 128
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,7 +169,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb3f1ae66be539440b4eeea389b80804
+      spriteID: 99cb779e76e331542b371746f4e65dae
       vertices: []
       indices: 
       edges: []
@@ -169,10 +178,10 @@ TextureImporter:
       name: Kiwi Death_3
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
-        width: 128
-        height: 128
+        x: 192
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,7 +189,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b94933f1daffa94fa2fb205d452ef42
+      spriteID: 74d19fb9f1560d74587b0acfb6adb832
       vertices: []
       indices: 
       edges: []
@@ -189,10 +198,10 @@ TextureImporter:
       name: Kiwi Death_4
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 128
-        height: 128
+        x: 256
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,7 +209,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30810b2b0171c17408995be994fc2e26
+      spriteID: f579e02e22f094f45bd90abf301fc9f2
       vertices: []
       indices: 
       edges: []
@@ -209,10 +218,10 @@ TextureImporter:
       name: Kiwi Death_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 128
-        height: 128
+        x: 320
+        y: 320
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,7 +229,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 071e6ba54e494d14ab58f03fd64d02d4
+      spriteID: a1bb633c86b5448439af86482d2044ca
       vertices: []
       indices: 
       edges: []
@@ -229,10 +238,10 @@ TextureImporter:
       name: Kiwi Death_6
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 128
-        height: 128
+        x: 0
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,7 +249,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc68d1219d9bb224e9d7cb23dac57cd3
+      spriteID: f17bd76ea81aa9d4db111e57d84f1b18
       vertices: []
       indices: 
       edges: []
@@ -249,10 +258,10 @@ TextureImporter:
       name: Kiwi Death_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 128
-        height: 128
+        x: 64
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,7 +269,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17e960a6ff0a6b643944c741d3b58cca
+      spriteID: 04d21d36edc59064c8c9e8f2fc98f4fa
       vertices: []
       indices: 
       edges: []
@@ -269,10 +278,10 @@ TextureImporter:
       name: Kiwi Death_8
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 128
-        height: 128
+        x: 128
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,7 +289,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b32158095e817a408f98305c054720c
+      spriteID: 229f82f53bc28c046bdf417ce6edb7f5
       vertices: []
       indices: 
       edges: []
@@ -289,10 +298,10 @@ TextureImporter:
       name: Kiwi Death_9
       rect:
         serializedVersion: 2
-        x: 512
-        y: 384
-        width: 128
-        height: 128
+        x: 192
+        y: 256
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,7 +309,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc797690768dbba4bb1f92a06f681025
+      spriteID: 51b4cdad65a6b1645a88781ab84615dd
       vertices: []
       indices: 
       edges: []
@@ -309,10 +318,10 @@ TextureImporter:
       name: Kiwi Death_10
       rect:
         serializedVersion: 2
-        x: 0
+        x: 256
         y: 256
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,7 +329,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f88c8ed24b1c5ce42ae74d65f02d0f4f
+      spriteID: 3494c01950850d14eaa4d190e7fa0644
       vertices: []
       indices: 
       edges: []
@@ -329,10 +338,10 @@ TextureImporter:
       name: Kiwi Death_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 320
         y: 256
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,7 +349,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b3e03bf78df1448ac7856a26e40662
+      spriteID: a87140964d674914bba6e0732c5302a8
       vertices: []
       indices: 
       edges: []
@@ -349,10 +358,10 @@ TextureImporter:
       name: Kiwi Death_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 128
-        height: 128
+        x: 0
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,7 +369,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f73dc67ec9b7b74abee061e3f5c809a
+      spriteID: b13be949f0762e747beecaa107470b24
       vertices: []
       indices: 
       edges: []
@@ -369,10 +378,10 @@ TextureImporter:
       name: Kiwi Death_13
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 128
-        height: 128
+        x: 64
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,7 +389,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a33040a6ff17d4a4ba75a06b21c2a423
+      spriteID: 80ad32e012fb90f45867c2e5608a5e75
       vertices: []
       indices: 
       edges: []
@@ -389,10 +398,10 @@ TextureImporter:
       name: Kiwi Death_14
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 128
-        height: 128
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,7 +409,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3bd2a51327d1924f8e24ab18b8b0bf7
+      spriteID: e4dc61b4f183e7f48aa29a7b77f5e4ba
       vertices: []
       indices: 
       edges: []
@@ -409,10 +418,10 @@ TextureImporter:
       name: Kiwi Death_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 128
-        height: 128
+        x: 192
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,7 +429,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07969907b3d68f74da33f26bd67d57e1
+      spriteID: 89eb001465a7aae47ba551f5e1d9c9fd
       vertices: []
       indices: 
       edges: []
@@ -429,10 +438,10 @@ TextureImporter:
       name: Kiwi Death_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 128
-        height: 128
+        x: 256
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,7 +449,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bce6db0540ef145a776c9f9512bcb9
+      spriteID: 305223130d96f9e46bd6bf7d09d98921
       vertices: []
       indices: 
       edges: []
@@ -449,10 +458,10 @@ TextureImporter:
       name: Kiwi Death_17
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 128
-        height: 128
+        x: 320
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,7 +469,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46022e786d5731045a02b14c3ab15ec1
+      spriteID: 5dd9f936ad4b9cd4eb980a3a9da793d6
       vertices: []
       indices: 
       edges: []
@@ -469,10 +478,10 @@ TextureImporter:
       name: Kiwi Death_18
       rect:
         serializedVersion: 2
-        x: 384
+        x: 0
         y: 128
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,7 +489,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3601928d060f101499d00b87885bb89d
+      spriteID: 498f877e3c7238c41a5b0405fe4d2485
       vertices: []
       indices: 
       edges: []
@@ -489,10 +498,10 @@ TextureImporter:
       name: Kiwi Death_19
       rect:
         serializedVersion: 2
-        x: 512
+        x: 64
         y: 128
-        width: 128
-        height: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,7 +509,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ae1a169bc515854b8a91f71a8ea4897
+      spriteID: 93fa512a87bcadf4fac678f6f3e70581
       vertices: []
       indices: 
       edges: []
@@ -509,10 +518,10 @@ TextureImporter:
       name: Kiwi Death_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,7 +529,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ded21f73747890f48a1aa87ba0c66c29
+      spriteID: 3b8ec6122b6fe9a45a2b0bee85d29e54
       vertices: []
       indices: 
       edges: []
@@ -529,10 +538,10 @@ TextureImporter:
       name: Kiwi Death_21
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 128
-        height: 128
+        x: 192
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,7 +549,187 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d1884f495c708449adb9088d032e4f
+      spriteID: 050a5c3a6ee3e9447890434f6d247251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cef9bbab45c6414e911c42fa353bb00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f634649170b92bd499dc2d4584dbe2bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d576fa2ba12bca644844d19516d8e792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbc503bede7153449f106457a9afd78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01bcaca9e6aa4440a457ddef8678521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd47946f442734cb730ec6c2ef4a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ac66b1a5d090348bc8b514a0248566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24bd87a804d40a42a5ab7de654fa058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kiwi Death_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8d4d0c7f3b57c4fbe06a9c63218944
       vertices: []
       indices: 
       edges: []

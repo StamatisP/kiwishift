@@ -88,7 +88,7 @@ MonoBehaviour:
     randomPitch: 0
   - name: PhaseShift
     clip: {fileID: 8300000, guid: 19de3450b2f490c438106f7df8da2ec2, type: 3}
-    volume: 0.896
+    volume: 0.402
     pitch: 1
     randomVolume: 0
     randomPitch: 0.105
