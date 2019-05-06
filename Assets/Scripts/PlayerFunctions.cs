@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerFunctions : MonoBehaviour
 {
-	public int health = 35;
+	public int health = 40;
+	private int maxHealth = 40;
 	//private PlayerPlatformerController playerController;
 	private Rigidbody2D rb2d;
 	private Vector3 spawnPos;
@@ -130,7 +131,7 @@ public class PlayerFunctions : MonoBehaviour
 	public void Spawn()
 	{
 		transform.position = spawnPos;
-		health = 35;
+		health = maxHealth;
 		animator.ResetTrigger("Died");
 		isDead = false;
 		animator.SetBool("IsDead", false);
