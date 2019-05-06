@@ -13,6 +13,7 @@ TagManager:
   - Bullet
   - FlyingEnemy
   - FlyingEnemyBullet
+  - DeathNotif
   layers:
   - Default
   - TransparentFX

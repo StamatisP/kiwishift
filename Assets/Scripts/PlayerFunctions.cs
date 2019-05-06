@@ -15,7 +15,8 @@ public class PlayerFunctions : MonoBehaviour
 	private PostProcessProfile DeathProfile;
 	[SerializeField]
 	private PostProcessProfile NormalProfile;
-	private bool isDead;
+	public bool isDead;
+	private GameObject deathNotif;
 	//private SpriteRenderer material;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
@@ -30,6 +31,16 @@ public class PlayerFunctions : MonoBehaviour
 		//playerController = GetComponent<PlayerPlatformerController> ();
 		rb2d = GetComponent<Rigidbody2D>();
 		isDead = false;
+		deathNotif = GameObject.FindWithTag("DeathNotif");
+		if (deathNotif != null)
+		{
+			Spawn();
+		}
+		else
+		{
+			print("deathnotif is null?");
+		}
+
 		//material = GetComponent<SpriteRenderer> ();
 	}
 
@@ -112,6 +123,8 @@ public class PlayerFunctions : MonoBehaviour
 		SoundManager.instance.PlaySound("Death");
 		Camera.main.GetComponent<PostProcessVolume>().profile = DeathProfile;
 		gameObject.GetComponent<PlayerPlatformerController>().enabled = false;
+
+		deathNotif.SetActive(true);
 	}
 
 	public void Spawn()
@@ -121,7 +134,10 @@ public class PlayerFunctions : MonoBehaviour
 		animator.ResetTrigger("Died");
 		isDead = false;
 		animator.SetBool("IsDead", false);
+		animator.SetTrigger("Spawn");
 		Camera.main.GetComponent<PostProcessVolume>().profile = NormalProfile;
 		gameObject.GetComponent<PlayerPlatformerController>().enabled = true;
+
+		deathNotif.SetActive(false);
 	}
 }

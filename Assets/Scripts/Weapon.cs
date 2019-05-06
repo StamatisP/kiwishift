@@ -12,16 +12,18 @@ public class Weapon : MonoBehaviour
 	private GameObject firePositionLeft;
 	private GameObject firePosition;
 	private float timeStamp;
+	private PlayerFunctions playerFunctions;
 
 	private PlayerPlatformerController playerPlatformerController;
 	// Use this for initialization
-	void Start ()
+	void Start()
 	{
-		playerPlatformerController = GetComponent<PlayerPlatformerController> ();
+		playerPlatformerController = GetComponent<PlayerPlatformerController>();
+		playerFunctions = GetComponent<PlayerFunctions>();
 	}
 
 	// Update is called once per frame
-	void Update ()
+	void Update()
 	{
 
 		if (playerPlatformerController.PlayerDirection == Direction.RIGHT)
@@ -34,14 +36,18 @@ public class Weapon : MonoBehaviour
 		}
 		else
 		{
-			Debug.LogError ("tf????");
+			Debug.LogError("tf????");
 		}
 
-		if (Input.GetButtonDown ("Fire1") && timeStamp <= Time.time)
+		if (Input.GetButtonDown("Fire1") && timeStamp <= Time.time)
 		{
+			if (playerFunctions.isDead)
+			{
+				return;
+			}
 			timeStamp = Time.time + (float) 0.5;
-			var tBullet = Instantiate (bullet, firePosition.transform.position, bullet.transform.rotation) as GameObject;
-			tBullet.GetComponent<Bullet> ().bulletDirection = playerPlatformerController.PlayerDirection;
+			var tBullet = Instantiate(bullet, firePosition.transform.position, bullet.transform.rotation) as GameObject;
+			tBullet.GetComponent<Bullet>().bulletDirection = playerPlatformerController.PlayerDirection;
 		}
 	}
 }
