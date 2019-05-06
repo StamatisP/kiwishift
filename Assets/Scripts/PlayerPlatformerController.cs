@@ -2,49 +2,53 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Direction {LEFT, RIGHT};
+public enum Direction { LEFT, RIGHT };
 public class PlayerPlatformerController : PhysicsObject
 {
-	//private GameManager gameManager;
-	public float maxSpeed = 7;
-	public float jumpTakeOffSpeed = 7;
-	//public Vector3 previousPosition;
+ //private GameManager gameManager;
+ public float maxSpeed = 7;
+ public float jumpTakeOffSpeed = 7;
+ //public Vector3 previousPosition;
 
-	private SpriteRenderer spriteRenderer;
-	public Animator animator;
-	public AudioSource audioSource;
-	private Direction playerDirection = Direction.RIGHT;
+ private SpriteRenderer spriteRenderer;
+ public Animator animator;
+ public AudioSource audioSource;
+ private Direction playerDirection = Direction.RIGHT;
 
-	public Direction PlayerDirection {
-		get {
-			return playerDirection;
+ public Direction PlayerDirection
+ {
+ get
+ {
+ return playerDirection;
 		}
 	}
 
 	// Use this for initialization
-	void Awake ()
+	void Awake()
 	{
-		spriteRenderer = GetComponent<SpriteRenderer> ();
+		spriteRenderer = GetComponent<SpriteRenderer>();
 		//animator = GetComponent<Animator> ();
 		//gameManager = GameManager.Instance;
 
 	}
 
-	protected override void ComputeVelocity ()
+	protected override void ComputeVelocity()
 	{
 		Vector2 move = Vector2.zero;
 
-		move.x = Input.GetAxis ("Horizontal");
+		move.x = Input.GetAxis("Horizontal");
 
-		if (Input.GetButtonDown ("Jump") && grounded)
+		if (Input.GetButtonDown("Jump") && grounded)
 		{
 			velocity.y = jumpTakeOffSpeed;
-			if (!SoundManager.instance) {
+			if (!SoundManager.instance)
+			{
 				Debug.LogError("Sound manager is nonexistant!!!");
-			} else if (SoundManager.instance)
+			}
+			else if (SoundManager.instance)
 				SoundManager.instance.PlaySound("Jump");
 		}
-		else if (Input.GetButtonUp ("Jump"))
+		else if (Input.GetButtonUp("Jump"))
 		{
 			if (velocity.y > 0)
 			{
@@ -56,30 +60,38 @@ public class PlayerPlatformerController : PhysicsObject
 		if (flipSprite)
 		{
 			spriteRenderer.flipX = !spriteRenderer.flipX;
-			if (playerDirection == Direction.LEFT) {
+			if (playerDirection == Direction.LEFT)
+			{
 				playerDirection = Direction.RIGHT;
-			} else if (playerDirection == Direction.RIGHT) {
+			}
+			else if (playerDirection == Direction.RIGHT)
+			{
 				playerDirection = Direction.LEFT;
 			}
 		}
 
-		if (grounded && Mathf.Abs(move.x) > 0.3f) {
-			audioSource.UnPause();
-		} else {
-			audioSource.Pause();
-		}
-
-		animator.SetBool ("Grounded", grounded);
-		animator.SetFloat ("Speed", Mathf.Abs (velocity.x) / maxSpeed);
+		animator.SetBool("Grounded", grounded);
+		animator.SetFloat("Speed", Mathf.Abs(velocity.x) / maxSpeed);
 
 		targetVelocity = move * maxSpeed;
+
+		if (grounded && Mathf.Abs(move.x) > 0.3f)
+		{
+			audioSource.UnPause();
+		}
+		else
+		{
+			audioSource.Pause();
+		}
 	}
 
-	void AttackBounce(int attackBounce) {
+	void AttackBounce(int attackBounce)
+	{
 		velocity.y = attackBounce;
 	}
 
-	public bool GetGrounded() {
+	public bool GetGrounded()
+	{
 		return grounded;
 	}
 }
