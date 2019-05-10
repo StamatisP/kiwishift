@@ -18,6 +18,9 @@ public class PlayerFunctions : MonoBehaviour
 	private PostProcessProfile NormalProfile;
 	public bool isDead;
 	private GameObject deathNotif;
+
+	public bool isPaused = false;
+	private GameObject pauseGui;
 	//private SpriteRenderer material;
 	//bool isShifted; // if false, then in normal world. if true, then other world
 
@@ -41,6 +44,9 @@ public class PlayerFunctions : MonoBehaviour
 		{
 			print("deathnotif is null?");
 		}
+
+		pauseGui = GameObject.FindWithTag("PauseGUI");
+		pauseGui.SetActive(false);
 
 		//material = GetComponent<SpriteRenderer> ();
 	}
@@ -69,8 +75,46 @@ public class PlayerFunctions : MonoBehaviour
 			PlayerDeath();
 		}
 
+		if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex > 0)
+		{
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				print("escapee");
+				if (isPaused)
+				{
+					print("unpausing");
+					print(pauseGui.name);
+					pauseGui.SetActive(false);
+					gameObject.GetComponent<PlayerPlatformerController>().enabled = true;
+					isPaused = false;
+					Time.timeScale = 1f;
+				}
+				else
+				{
+					print("pausing");
+					pauseGui.SetActive(true);
+					gameObject.GetComponent<PlayerPlatformerController>().enabled = false;
+					isPaused = true;
+					Time.timeScale = 0f;
+				}
+			}
+		}
+
 		//material.color = new Color (255, 255, 255, health * (float) 7.28);
 		//print (material.color);
+	}
+
+	public void Continue()
+	{
+		isPaused = false;
+		pauseGui.SetActive(false);
+		Time.timeScale = 1f;
+		gameObject.GetComponent<PlayerPlatformerController>().enabled = true;
+	}
+
+	public void Quit()
+	{
+		Application.Quit();
 	}
 
 	void OnTriggerEnter2D(Collider2D col)
@@ -139,6 +183,6 @@ public class PlayerFunctions : MonoBehaviour
 		Camera.main.GetComponent<PostProcessVolume>().profile = NormalProfile;
 		gameObject.GetComponent<PlayerPlatformerController>().enabled = true;
 
-		deathNotif.SetActive(false);
+		deathNotif.SetActive(false); // so so so ugly but deadlines
 	}
 }

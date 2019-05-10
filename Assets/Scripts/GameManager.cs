@@ -17,22 +17,26 @@ public class GameManager : MonoBehaviour
 		{
 			if (_instance == null)
 			{
-				GameObject go = new GameObject ("GameManager");
-				go.AddComponent<GameManager> ();
+				GameObject go = new GameObject("GameManager");
+				go.AddComponent<GameManager>();
 			}
 			return _instance;
 		}
 	}
 
 	// Use this for initialization
-	void Awake ()
+	void Awake()
 	{
 		if (_instance == null)
 		{
 			_instance = this;
-			DontDestroyOnLoad (gameObject);
+			DontDestroyOnLoad(gameObject);
 		}
-		else Destroy (this);
+		else
+		{
+			Destroy(this);
+			Debug.Log("other game manager");
+		}
 	}
 	#endregion 
 	public bool isShifted { get; set; }
@@ -48,7 +52,7 @@ public class GameManager : MonoBehaviour
 	public Color normalWorldColorFade;
 
 	// Update is called once per frame
-	void Start ()
+	void Start()
 	{
 		isShifted = false;
 		//DontDestroyOnLoad();
@@ -56,61 +60,61 @@ public class GameManager : MonoBehaviour
 	}
 
 	//[MenuItem ("Testing/Call Level Load")]
-	public void LevelLoad ()
+	public void LevelLoad()
 	{
-		StartCoroutine ("LevelLoadCoroutine");
+		StartCoroutine("LevelLoadCoroutine");
 	}
 
-	IEnumerator LevelLoadCoroutine ()
+	IEnumerator LevelLoadCoroutine()
 	{
-		print ("loading level...");
-		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex + 1);
-		yield return new WaitForFixedUpdate ();
+		print("loading level...");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		yield return new WaitForFixedUpdate();
 
 		// levelload should get called when you hit the exit portal, and when you click "start game" on main menu
 		//normalWorldObjects.Clear ();
 		//otherWorldObjects.Clear ();
-		normalWorldRenderers.Clear ();
-		otherWorldRenderers.Clear ();
+		normalWorldRenderers.Clear();
+		otherWorldRenderers.Clear();
 		normalWorldColliders.Clear();
 		otherWorldColliders.Clear();
-		yield return new WaitForFixedUpdate ();
+		yield return new WaitForFixedUpdate();
 
-		List<GameObject> normalWorldObjectsList = GameObject.FindGameObjectsWithTag ("NormalWorld").ToList ();
+		List<GameObject> normalWorldObjectsList = GameObject.FindGameObjectsWithTag("NormalWorld").ToList();
 		foreach (GameObject _go in normalWorldObjectsList)
 		{
-			Debug.Log ("loop work");
+			Debug.Log("loop work");
 			//print (_go.name);
-			normalWorldObjects.Add (_go);
-			normalWorldRenderers.Add (_go.GetComponent<Tilemap> ());
-			normalWorldColliders.Add (_go.GetComponent<TilemapCollider2D> ());
+			normalWorldObjects.Add(_go);
+			normalWorldRenderers.Add(_go.GetComponent<Tilemap>());
+			normalWorldColliders.Add(_go.GetComponent<TilemapCollider2D>());
 		}
 		// this is so spaghetti
 
-		List<GameObject> otherWorldObjectsList = GameObject.FindGameObjectsWithTag ("OtherWorld").ToList ();
+		List<GameObject> otherWorldObjectsList = GameObject.FindGameObjectsWithTag("OtherWorld").ToList();
 		foreach (GameObject _go in otherWorldObjectsList)
 		{
-			Debug.Log ("loop work");
+			Debug.Log("loop work");
 			//print (_go.name);
-			otherWorldObjects.Add (_go);
-			otherWorldRenderers.Add (_go.GetComponent<Tilemap> ());
-			otherWorldColliders.Add (_go.GetComponent<TilemapCollider2D> ());
+			otherWorldObjects.Add(_go);
+			otherWorldRenderers.Add(_go.GetComponent<Tilemap>());
+			otherWorldColliders.Add(_go.GetComponent<TilemapCollider2D>());
 		}
 		PhaseShift();
 		PhaseShift();
-		
+
 		yield return null;
 	}
 
 	//[MenuItem ("Testing/Call Phase Shift")]
-	public void PhaseShift ()
+	public void PhaseShift()
 	{
 		isShifted = !isShifted; // if false, then in normal world. if true, then other world
 		if (isShifted == true)
-			print ("in other world");
+			print("in other world");
 
 		if (isShifted == false)
-			print ("normal world");
+			print("normal world");
 
 		// the sprite renderer should be cached...
 		// did it, cached above

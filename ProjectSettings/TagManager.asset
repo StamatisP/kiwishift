@@ -14,6 +14,7 @@ TagManager:
   - FlyingEnemy
   - FlyingEnemyBullet
   - DeathNotif
+  - PauseGUI
   layers:
   - Default
   - TransparentFX

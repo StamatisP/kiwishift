@@ -41,7 +41,7 @@ public class Weapon : MonoBehaviour
 
 		if (Input.GetButtonDown("Fire1") && timeStamp <= Time.time)
 		{
-			if (playerFunctions.isDead)
+			if (playerFunctions.isDead || playerFunctions.isPaused)
 			{
 				return;
 			}
